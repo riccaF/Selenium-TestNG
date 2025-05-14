@@ -11,7 +11,7 @@ public class LoginPageTests extends BaseTests{
     	objLoginPage.login("admin$$", "admin123");
     	 
     	// Verify Error Message
-    	 Assert.assertEquals("Invalid credentials",objLoginPage.getErrorMessage());
+    	 Assert.assertEquals("Invalid credential",objLoginPage.getErrorMessage());
     
     }
     @Test
